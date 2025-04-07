@@ -151,7 +151,6 @@ Note: This option requires creating RBAC rules on clusters where RBAC policies a
 ```console
 externalAccess.enabled=true
 externalAccess.controller.service.type=LoadBalancer
-externalAccess.controller.service.containerPorts.external=9094
 externalAccess.controller.service.loadBalancerIPs[0]='external-ip-1'
 externalAccess.controller.service.loadBalancerIPs[1]='external-ip-2'
 externalAccess.broker.service.type=LoadBalancer
